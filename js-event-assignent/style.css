@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #hoverArea {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eee;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .gallery img {
+  padding: 20px;
+  height: auto;
+  width: 500px;
+    display: block;
+    margin: 10px 0;
+  }
+  
